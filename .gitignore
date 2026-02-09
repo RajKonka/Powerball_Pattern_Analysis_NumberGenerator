@@ -1,18 +1,4 @@
-(base) rajkumakonka@Mac Powerball_application % git add .gitignore
-(base) rajkumarkonka@Mac Powerball_application % git commit -m"updated .gitignore file"
-On branch main
-Your branch is up to date with 'origin/main'.
-
-nothing to commit, working tree cleanvenv/
-.venv/
-__pycache__/
-*.pyc
-.DS_Store
-.env
-.streamlit/
-.idea/
-.vscode/
-outputs/# Python
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -43,4 +29,10 @@ data/cache/
 ~$*
 *.tmp
 
-# Jupyter Noteb
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
